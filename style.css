@@ -1,0 +1,78 @@
+/* google font and basics */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.button {
+    color: white;
+    background-color: #DD0000;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 16px 25px;
+    gap: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.container {
+    color: aliceblue;
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    width: 1000px;
+    height: 450px;
+    padding-left: 50px;
+    margin-left: 100px;
+    background-color: #161616;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.marcelo {
+    width: 581px;
+    height: 700px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.great {
+    padding-top: 18px;
+    width: 531px;
+    height: 424px;
+}
+
+
+/* section2 */
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 220px;
+    margin-top: 100px;
+    background-color: #161616;
+    padding: 10px;
+    margin-left: 140px;
+}
+
+.boxbutton {
+    margin-top: 15px;
+    color: white;
+    background-color: #DD0000;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 16px 25px;
+    gap: 10px;
+    border: 0;
+    border-radius: 5px;
+}
