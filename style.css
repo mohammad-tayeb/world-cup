@@ -14,17 +14,6 @@ h1 {
     font-size: 16px;
 }
 
-.button {
-    color: white;
-    background-color: #DD0000;
-    font-weight: 400;
-    font-size: 20px;
-    padding: 16px 25px;
-    gap: 10px;
-    border: 0;
-    border-radius: 5px;
-}
-
 .container {
     color: aliceblue;
     display: flex;
@@ -42,7 +31,7 @@ h1 {
 .marcelo {
     width: 581px;
     height: 700px;
-    padding-top: 40px;
+    padding-top: 110px;
 }
 
 .great {
@@ -89,6 +78,7 @@ h1 {
     margin-top: 130px;
     width: 984px;
     height: 1134px;
+    margin-right: 20px;
 }
 
 .gridelement {
@@ -98,6 +88,21 @@ h1 {
 .gridelement img {
     width: 312px;
     height: 175px;
+    margin-bottom: 10px;
+}
+
+.time-message {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 190px;
+    color: gray;
+}
+
+.time,
+.message {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
 }
 
 .link {
@@ -141,4 +146,44 @@ hr {
     width: 900px;
     color: gray;
     opacity: 0.2;
+}
+
+/* button animtion */
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
