@@ -41,7 +41,7 @@ h1 {
 }
 
 
-/* section2 */
+/* section2  left sides box */
 .box {
     display: flex;
     flex-direction: column;
@@ -187,3 +187,188 @@ hr {
     opacity: 1;
     right: 0;
 }
+
+/* for mobile devices............................... */
+@media only screen and (max-width: 600px) {
+
+    /* for footer'''''''''''''' */
+    .footer {
+        position: relative;
+        margin-top: 2400px;
+        width: 100%;
+        height: 444px;
+        background-color: #161616;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    h2 {
+        margin-left: 20px;
+        color: orangered;
+    }
+
+    .footertext {
+        display: inline;
+        margin-left: 50px;
+    }
+
+    .footertext p {
+        margin-right: 25px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #B9B9B9;
+    }
+
+    .footerdiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    hr {
+        width: 100%;
+        color: gray;
+        opacity: 0.2;
+        margin-left: 15px;
+    }
+
+    /* 3rd section with grid''''''''''''''' */
+    .section3 {
+        display: inline;
+        width: 100%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 130px;
+        width: 100%;
+        height: 1134px;
+        margin-right: 20px;
+    }
+
+    .gridelement {
+        margin-right: 24px;
+        width: 335px;
+        height: 388.69px;
+        margin-left: 80px;
+    }
+
+    .gridelement img {
+        width: 312px;
+        height: 175px;
+        margin-bottom: 10px;
+    }
+
+    .time-message {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 190px;
+        color: gray;
+    }
+
+    .time,
+    .message {
+        margin-left: 10px;
+        font-size: small;
+        color: gray;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #161616;
+
+    }
+
+    /* section2  left sides box'''''''''''''''''''''''' */
+    .box {
+
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 220px;
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 80px;
+        margin-top: 130px;
+        background-color: white;
+    }
+
+    .boxbutton {
+        margin-top: 10px;
+        color: #161616;
+        background-color: #E8E8E8;
+        font-weight: 500;
+        font-size: 1.5em;
+        padding: 16px;
+        gap: 10px;
+        border: 0;
+        border-radius: 5px;
+    }
+
+    /* section1 some text and a image of Marcelo */
+    .container {
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        justify-content: center;
+        width: 440px;
+        height: 485px;
+        padding-left: 10px;
+        margin-left: 10px;
+        background-color: #161616;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .heading1 {
+        padding-top: 200px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .lorem {
+        width: 100%;
+        font-size: smaller;
+        text-align: justify;
+    }
+
+    .marcelo {
+        width: 233px;
+        height: 245px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .marcelo img {
+        width: 233px;
+        height: 245px;
+        margin-left: 120px;
+    }
+
+    .great {
+        padding-top: 0;
+        margin-top: -50px;
+        justify-content: center;
+        padding-left: 40px;
+        padding-top: 18px;
+        width: 100%;
+        height: 424px;
+    }
+
+    .section1 {
+        padding-top: 0;
+        margin-top: -150px;
+    }
+
+    .button {
+        margin-left: 70px;
+    }
+}
+
+/*medias ending bracket*/
