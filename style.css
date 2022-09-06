@@ -22,7 +22,7 @@ h1 {
     width: 1000px;
     height: 450px;
     padding-left: 50px;
-    margin-left: 100px;
+    margin-left: 40px;
     background-color: #161616;
     border-radius: 30px;
     margin-top: 30px;
@@ -76,8 +76,8 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 130px;
-    width: 984px;
-    height: 1134px;
+    width: 400px;
+    height: 1100px;
     margin-right: 20px;
 }
 
@@ -86,7 +86,7 @@ h1 {
 }
 
 .gridelement img {
-    width: 312px;
+    width: 260px;
     height: 175px;
     margin-bottom: 10px;
 }
@@ -94,7 +94,7 @@ h1 {
 .time-message {
     display: flex;
     justify-content: space-between;
-    margin-right: 190px;
+    margin-right: 90px;
     color: gray;
 }
 
@@ -113,6 +113,7 @@ h1 {
 
 /* footer starts from here */
 .footer {
+    margin-top: 60px;
     width: 100%;
     height: 444px;
     background-color: #161616;
@@ -317,7 +318,7 @@ hr {
         flex-direction: column;
         border: 1px solid red;
         justify-content: center;
-        width: 440px;
+        width: 390px;
         height: 485px;
         padding-left: 10px;
         margin-left: 10px;
@@ -339,7 +340,7 @@ hr {
     }
 
     .marcelo {
-        width: 233px;
+        width: 220px;
         height: 245px;
         margin-top: 0;
         padding-top: 0;
@@ -355,7 +356,7 @@ hr {
         padding-top: 0;
         margin-top: -50px;
         justify-content: center;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-top: 18px;
         width: 100%;
         height: 424px;
