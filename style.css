@@ -18,10 +18,10 @@ h1 {
     color: aliceblue;
     display: flex;
     border: 1px solid red;
-    justify-content: center;
-    width: 1000px;
+    /* justify-content: center; */
+    width: 750px;
     height: 450px;
-    padding-left: 150px;
+    padding-left: 400px;
     margin-left: 40px;
     background-color: #161616;
     border-radius: 30px;
@@ -547,6 +547,4 @@ hr {
         opacity: 1;
         right: 0;
     }
-
-
 }
