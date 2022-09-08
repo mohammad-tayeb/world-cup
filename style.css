@@ -38,6 +38,7 @@ h1 {
     padding-top: 18px;
     width: 531px;
     height: 424px;
+    margin-left: -250px;
 }
 
 
@@ -357,7 +358,7 @@ hr {
         padding-top: 0;
         margin-top: -50px;
         justify-content: center;
-        padding-left: 20px;
+        padding-left: 270px;
         padding-top: 18px;
         width: 100%;
         height: 424px;
@@ -375,5 +376,177 @@ hr {
 
 /*medias ending bracket*/
 
-/* for tablet..............................................................................................
-........................................................................................................... */
+/* for tablet.......................tablet view.......................................................................
+.............................tablet view.............................................................................. */
+@media (min-width: 600px) and (max-width: 768px) {
+    h1 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+
+    .p {
+        font-weight: 50;
+        font-size: -40px;
+    }
+
+    .container {
+        position: absolute;
+        color: aliceblue;
+        display: flex;
+        border: 1px solid red;
+        justify-content: center;
+        width: 590px;
+        height: 450px;
+        padding-left: 10px;
+        margin-left: 25px;
+        background-color: #161616;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .marcelo {
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        margin-left: -370px;
+        padding-top: 155px;
+        padding-left: 600px;
+    }
+
+    .marcelo img {
+        width: 283px;
+        height: 295px;
+    }
+
+    .great {
+        padding-top: 40px;
+        padding-right: 10px;
+        width: 300px;
+        height: 400px;
+    }
+
+    /* 3rd section with grid */
+    .section3 {
+        display: flex;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 600px;
+        width: 400px;
+        height: 1100px;
+        margin-left: -240px;
+    }
+
+    .gridelement {
+        margin-right: 24px;
+    }
+
+    .gridelement img {
+        width: 260px;
+        height: 175px;
+        margin-bottom: 10px;
+    }
+
+    .time-message {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 90px;
+        color: gray;
+    }
+
+    .time,
+    .message {
+        margin-left: 10px;
+        font-size: small;
+        color: gray;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #161616;
+
+    }
+
+    /* footer starts from here */
+    .footer {
+        margin-top: 750px;
+        width: 100%;
+        height: 444px;
+        background-color: #161616;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footertext {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .footertext p {
+        margin-right: 25px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #B9B9B9;
+    }
+
+    .footerdiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    hr {
+        width: 600px;
+        color: gray;
+        opacity: 0.2;
+    }
+
+    /* button animtion */
+    .button {
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 22px;
+        padding: 15px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .button:hover span {
+        padding-right: 25px;
+    }
+
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+
+}
